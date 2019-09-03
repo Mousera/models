@@ -17,7 +17,7 @@
 import numpy as np
 import tensorflow as tf
 
-from object_detection.core import keypoint_ops
+from vision.object.methods.cnn.models.object_detection.core import keypoint_ops
 
 
 class KeypointOpsTest(tf.test.TestCase):

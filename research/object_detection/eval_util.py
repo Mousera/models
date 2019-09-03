@@ -26,16 +26,16 @@ import numpy as np
 from six.moves import range
 import tensorflow as tf
 
-from object_detection.core import box_list
-from object_detection.core import box_list_ops
-from object_detection.core import keypoint_ops
-from object_detection.core import standard_fields as fields
-from object_detection.metrics import coco_evaluation
-from object_detection.utils import label_map_util
-from object_detection.utils import object_detection_evaluation
-from object_detection.utils import ops
-from object_detection.utils import shape_utils
-from object_detection.utils import visualization_utils as vis_utils
+from vision.object.methods.cnn.models.object_detection.core import box_list
+from vision.object.methods.cnn.models.object_detection.core import box_list_ops
+from vision.object.methods.cnn.models.object_detection.core import keypoint_ops
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.metrics import coco_evaluation
+from vision.object.methods.cnn.models.object_detection.utils import label_map_util
+from vision.object.methods.cnn.models.object_detection.utils import object_detection_evaluation
+from vision.object.methods.cnn.models.object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.utils import shape_utils
+from vision.object.methods.cnn.models.object_detection.utils import visualization_utils as vis_utils
 
 slim = tf.contrib.slim
 

@@ -18,10 +18,10 @@
 import tensorflow as tf
 
 from google.protobuf import text_format
-from object_detection.builders import matcher_builder
-from object_detection.matchers import argmax_matcher
-from object_detection.matchers import bipartite_matcher
-from object_detection.protos import matcher_pb2
+from vision.object.methods.cnn.models.object_detection.builders import matcher_builder
+from vision.object.methods.cnn.models.object_detection.matchers import argmax_matcher
+from vision.object.methods.cnn.models.object_detection.matchers import bipartite_matcher
+from vision.object.methods.cnn.models.object_detection.protos import matcher_pb2
 
 
 class MatcherBuilderTest(tf.test.TestCase):

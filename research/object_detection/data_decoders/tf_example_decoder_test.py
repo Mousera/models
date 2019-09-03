@@ -19,10 +19,10 @@ import numpy as np
 import six
 import tensorflow as tf
 
-from object_detection.core import standard_fields as fields
-from object_detection.data_decoders import tf_example_decoder
-from object_detection.protos import input_reader_pb2
-from object_detection.utils import dataset_util
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.data_decoders import tf_example_decoder
+from vision.object.methods.cnn.models.object_detection.protos import input_reader_pb2
+from vision.object.methods.cnn.models.object_detection.utils import dataset_util
 
 slim_example_decoder = tf.contrib.slim.tfexample_decoder
 

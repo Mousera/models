@@ -24,11 +24,11 @@ from tensorflow.core.framework import attr_value_pb2
 from tensorflow.core.framework import types_pb2
 from tensorflow.core.protobuf import saver_pb2
 from tensorflow.tools.graph_transforms import TransformGraph
-from object_detection import exporter
-from object_detection.builders import graph_rewriter_builder
-from object_detection.builders import model_builder
-from object_detection.builders import post_processing_builder
-from object_detection.core import box_list
+from vision.object.methods.cnn.models.object_detection import exporter
+from vision.object.methods.cnn.models.object_detection.builders import graph_rewriter_builder
+from vision.object.methods.cnn.models.object_detection.builders import model_builder
+from vision.object.methods.cnn.models.object_detection.builders import post_processing_builder
+from vision.object.methods.cnn.models.object_detection.core import box_list
 
 _DEFAULT_NUM_CHANNELS = 3
 _DEFAULT_NUM_COORD_BOX = 4

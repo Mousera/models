@@ -19,7 +19,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from nets.nasnet import pnasnet
+from vision.object.methods.cnn.models.slim.nets.nasnet import pnasnet
 
 slim = tf.contrib.slim
 

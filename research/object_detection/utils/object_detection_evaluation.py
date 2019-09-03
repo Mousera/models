@@ -42,10 +42,10 @@ from six.moves import range
 from six.moves import zip
 import tensorflow as tf
 
-from object_detection.core import standard_fields
-from object_detection.utils import label_map_util
-from object_detection.utils import metrics
-from object_detection.utils import per_image_evaluation
+from vision.object.methods.cnn.models.object_detection.core import standard_fields
+from vision.object.methods.cnn.models.object_detection.utils import label_map_util
+from vision.object.methods.cnn.models.object_detection.utils import metrics
+from vision.object.methods.cnn.models.object_detection.utils import per_image_evaluation
 
 
 class DetectionEvaluator(six.with_metaclass(ABCMeta, object)):

@@ -18,7 +18,7 @@
 import tensorflow as tf
 
 
-from object_detection.utils import learning_schedules
+from vision.object.methods.cnn.models.object_detection.utils import learning_schedules
 
 
 def build(optimizer_config, global_step=None):

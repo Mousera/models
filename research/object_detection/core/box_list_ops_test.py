@@ -17,9 +17,9 @@
 import numpy as np
 import tensorflow as tf
 
-from object_detection.core import box_list
-from object_detection.core import box_list_ops
-from object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection.core import box_list
+from vision.object.methods.cnn.models.object_detection.core import box_list_ops
+from vision.object.methods.cnn.models.object_detection.utils import test_case
 
 
 class BoxListOpsTest(test_case.TestCase):

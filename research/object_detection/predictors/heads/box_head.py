@@ -22,7 +22,7 @@ All the box prediction heads have a predict function that receives the
 import functools
 import tensorflow as tf
 
-from object_detection.predictors.heads import head
+from vision.object.methods.cnn.models.object_detection.predictors.heads import head
 
 slim = tf.contrib.slim
 

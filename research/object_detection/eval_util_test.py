@@ -24,10 +24,10 @@ import six
 from six.moves import range
 import tensorflow as tf
 
-from object_detection import eval_util
-from object_detection.core import standard_fields as fields
-from object_detection.protos import eval_pb2
-from object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection import eval_util
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.protos import eval_pb2
+from vision.object.methods.cnn.models.object_detection.utils import test_case
 
 
 class EvalUtilTest(test_case.TestCase, parameterized.TestCase):

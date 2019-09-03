@@ -20,10 +20,10 @@ Based on PNASNet model: https://arxiv.org/abs/1712.00559
 
 import tensorflow as tf
 
-from object_detection.meta_architectures import faster_rcnn_meta_arch
-from object_detection.utils import variables_helper
-from nets.nasnet import nasnet_utils
-from nets.nasnet import pnasnet
+from vision.object.methods.cnn.models.object_detection.meta_architectures import faster_rcnn_meta_arch
+from vision.object.methods.cnn.models.object_detection.utils import variables_helper
+from vision.object.methods.cnn.models.slim.nets.nasnet import nasnet_utils
+from vision.object.methods.cnn.models.slim.nets.nasnet import pnasnet
 
 arg_scope = tf.contrib.framework.arg_scope
 slim = tf.contrib.slim

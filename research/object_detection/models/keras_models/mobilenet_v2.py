@@ -20,9 +20,9 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from object_detection.core import freezable_batch_norm
-from object_detection.models.keras_models import model_utils
-from object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.core import freezable_batch_norm
+from vision.object.methods.cnn.models.object_detection.models.keras_models import model_utils
+from vision.object.methods.cnn.models.object_detection.utils import ops
 
 
 # pylint: disable=invalid-name

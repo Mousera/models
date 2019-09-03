@@ -21,14 +21,14 @@ import tensorflow as tf
 from google.protobuf import text_format
 from tensorflow.python.framework import dtypes
 from tensorflow.python.ops import array_ops
-from object_detection import exporter
-from object_detection.builders import graph_rewriter_builder
-from object_detection.builders import model_builder
-from object_detection.core import model
-from object_detection.protos import graph_rewriter_pb2
-from object_detection.protos import pipeline_pb2
-from object_detection.utils import ops
-from object_detection.utils import variables_helper
+from vision.object.methods.cnn.models.object_detection import exporter
+from vision.object.methods.cnn.models.object_detection.builders import graph_rewriter_builder
+from vision.object.methods.cnn.models.object_detection.builders import model_builder
+from vision.object.methods.cnn.models.object_detection.core import model
+from vision.object.methods.cnn.models.object_detection.protos import graph_rewriter_pb2
+from vision.object.methods.cnn.models.object_detection.protos import pipeline_pb2
+from vision.object.methods.cnn.models.object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.utils import variables_helper
 
 if six.PY2:
   import mock  # pylint: disable=g-import-not-at-top

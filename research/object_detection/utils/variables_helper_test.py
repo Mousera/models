@@ -23,7 +23,7 @@ import os
 
 import tensorflow as tf
 
-from object_detection.utils import variables_helper
+from vision.object.methods.cnn.models.object_detection.utils import variables_helper
 
 
 class FilterVariablesTest(tf.test.TestCase):

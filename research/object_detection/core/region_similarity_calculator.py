@@ -28,8 +28,8 @@ from abc import abstractmethod
 import six
 import tensorflow as tf
 
-from object_detection.core import box_list_ops
-from object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.core import box_list_ops
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
 
 
 class RegionSimilarityCalculator(six.with_metaclass(ABCMeta, object)):

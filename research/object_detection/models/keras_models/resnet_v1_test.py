@@ -26,10 +26,10 @@ import tensorflow as tf
 
 from google.protobuf import text_format
 
-from object_detection.builders import hyperparams_builder
-from object_detection.models.keras_models import resnet_v1
-from object_detection.protos import hyperparams_pb2
-from object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection.builders import hyperparams_builder
+from vision.object.methods.cnn.models.object_detection.models.keras_models import resnet_v1
+from vision.object.methods.cnn.models.object_detection.protos import hyperparams_pb2
+from vision.object.methods.cnn.models.object_detection.utils import test_case
 
 _EXPECTED_SHAPES_224_RESNET50 = {
     'conv2_block3_out': (4, 56, 56, 256),

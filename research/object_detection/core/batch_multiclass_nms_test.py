@@ -20,8 +20,8 @@ from absl.testing import parameterized
 import numpy as np
 from six.moves import range
 import tensorflow as tf
-from object_detection.core import post_processing
-from object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection.core import post_processing
+from vision.object.methods.cnn.models.object_detection.utils import test_case
 
 
 class BatchMulticlassNonMaxSuppressionTest(test_case.TestCase,

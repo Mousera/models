@@ -22,7 +22,7 @@ from pycocotools import mask
 
 import tensorflow as tf
 
-from object_detection.metrics import coco_tools
+from vision.object.methods.cnn.models.object_detection.metrics import coco_tools
 
 
 class CocoToolsTest(tf.test.TestCase):

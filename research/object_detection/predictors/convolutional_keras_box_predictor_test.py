@@ -18,14 +18,14 @@ import numpy as np
 import tensorflow as tf
 
 from google.protobuf import text_format
-from object_detection.builders import box_predictor_builder
-from object_detection.builders import hyperparams_builder
-from object_detection.predictors import convolutional_keras_box_predictor as box_predictor
-from object_detection.predictors.heads import keras_box_head
-from object_detection.predictors.heads import keras_class_head
-from object_detection.predictors.heads import keras_mask_head
-from object_detection.protos import hyperparams_pb2
-from object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection.builders import box_predictor_builder
+from vision.object.methods.cnn.models.object_detection.builders import hyperparams_builder
+from vision.object.methods.cnn.models.object_detection.predictors import convolutional_keras_box_predictor as box_predictor
+from vision.object.methods.cnn.models.object_detection.predictors.heads import keras_box_head
+from vision.object.methods.cnn.models.object_detection.predictors.heads import keras_class_head
+from vision.object.methods.cnn.models.object_detection.predictors.heads import keras_mask_head
+from vision.object.methods.cnn.models.object_detection.protos import hyperparams_pb2
+from vision.object.methods.cnn.models.object_detection.utils import test_case
 
 
 class ConvolutionalKerasBoxPredictorTest(test_case.TestCase):

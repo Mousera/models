@@ -20,8 +20,8 @@ from __future__ import print_function
 
 import numpy as np
 import tensorflow as tf
-from object_detection.core import standard_fields
-from object_detection.metrics import coco_evaluation
+from vision.object.methods.cnn.models.object_detection.core import standard_fields
+from vision.object.methods.cnn.models.object_detection.metrics import coco_evaluation
 
 
 def _get_categories_list():

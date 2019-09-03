@@ -22,7 +22,7 @@ import math
 import tensorflow as tf
 
 from datasets import dataset_factory
-from nets import nets_factory
+from vision.object.methods.cnn.models.slim.nets import nets_factory
 from preprocessing import preprocessing_factory
 
 slim = tf.contrib.slim

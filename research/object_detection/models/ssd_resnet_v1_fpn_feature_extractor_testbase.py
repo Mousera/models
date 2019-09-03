@@ -19,7 +19,7 @@ from absl.testing import parameterized
 import numpy as np
 import tensorflow as tf
 
-from object_detection.models import ssd_feature_extractor_test
+from vision.object.methods.cnn.models.object_detection.models import ssd_feature_extractor_test
 
 
 @parameterized.parameters(

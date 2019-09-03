@@ -34,9 +34,9 @@ import abc
 import six
 import tensorflow as tf
 
-from object_detection.core import box_list
-from object_detection.core import box_list_ops
-from object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.core import box_list
+from vision.object.methods.cnn.models.object_detection.core import box_list_ops
+from vision.object.methods.cnn.models.object_detection.utils import ops
 
 slim = tf.contrib.slim
 

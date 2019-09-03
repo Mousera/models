@@ -20,12 +20,12 @@ import math
 import tensorflow as tf
 
 from google.protobuf import text_format
-from object_detection.anchor_generators import flexible_grid_anchor_generator
-from object_detection.anchor_generators import grid_anchor_generator
-from object_detection.anchor_generators import multiple_grid_anchor_generator
-from object_detection.anchor_generators import multiscale_grid_anchor_generator
-from object_detection.builders import anchor_generator_builder
-from object_detection.protos import anchor_generator_pb2
+from vision.object.methods.cnn.models.object_detection.anchor_generators import flexible_grid_anchor_generator
+from vision.object.methods.cnn.models.object_detection.anchor_generators import grid_anchor_generator
+from vision.object.methods.cnn.models.object_detection.anchor_generators import multiple_grid_anchor_generator
+from vision.object.methods.cnn.models.object_detection.anchor_generators import multiscale_grid_anchor_generator
+from vision.object.methods.cnn.models.object_detection.builders import anchor_generator_builder
+from vision.object.methods.cnn.models.object_detection.protos import anchor_generator_pb2
 
 
 class AnchorGeneratorBuilderTest(tf.test.TestCase):

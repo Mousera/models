@@ -14,11 +14,11 @@
 # ==============================================================================
 
 """A function to build an object detection box coder from configuration."""
-from object_detection.box_coders import faster_rcnn_box_coder
-from object_detection.box_coders import keypoint_box_coder
-from object_detection.box_coders import mean_stddev_box_coder
-from object_detection.box_coders import square_box_coder
-from object_detection.protos import box_coder_pb2
+from vision.object.methods.cnn.models.object_detection.box_coders import faster_rcnn_box_coder
+from vision.object.methods.cnn.models.object_detection.box_coders import keypoint_box_coder
+from vision.object.methods.cnn.models.object_detection.box_coders import mean_stddev_box_coder
+from vision.object.methods.cnn.models.object_detection.box_coders import square_box_coder
+from vision.object.methods.cnn.models.object_detection.protos import box_coder_pb2
 
 
 def build(box_coder_config):
@@ -36,6 +36,7 @@ def build(box_coder_config):
   """
   if not isinstance(box_coder_config, box_coder_pb2.BoxCoder):
     raise ValueError('box_coder_config not of type box_coder_pb2.BoxCoder.')
+
 
   if box_coder_config.WhichOneof('box_coder_oneof') == 'faster_rcnn_box_coder':
     return faster_rcnn_box_coder.FasterRcnnBoxCoder(scale_factors=[

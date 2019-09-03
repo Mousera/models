@@ -17,12 +17,12 @@
 
 import tensorflow as tf
 
-from object_detection.meta_architectures import ssd_meta_arch
-from object_detection.models import feature_map_generators
-from object_detection.models.keras_models import mobilenet_v1
-from object_detection.models.keras_models import model_utils
-from object_detection.utils import ops
-from object_detection.utils import shape_utils
+from vision.object.methods.cnn.models.object_detection.meta_architectures import ssd_meta_arch
+from vision.object.methods.cnn.models.object_detection.models import feature_map_generators
+from vision.object.methods.cnn.models.object_detection.models.keras_models import mobilenet_v1
+from vision.object.methods.cnn.models.object_detection.models.keras_models import model_utils
+from vision.object.methods.cnn.models.object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.utils import shape_utils
 
 
 # A modified config of mobilenet v1 that makes it more detection friendly.

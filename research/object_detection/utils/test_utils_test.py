@@ -22,7 +22,7 @@ from __future__ import print_function
 import numpy as np
 import tensorflow as tf
 
-from object_detection.utils import test_utils
+from vision.object.methods.cnn.models.object_detection.utils import test_utils
 
 
 class TestUtilsTest(tf.test.TestCase):

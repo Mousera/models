@@ -15,9 +15,9 @@
 """Tests for ssd resnet v1 FPN feature extractors."""
 import tensorflow as tf
 
-from object_detection.models import ssd_resnet_v1_fpn_feature_extractor
-from object_detection.models import ssd_resnet_v1_fpn_feature_extractor_testbase
-from object_detection.models import ssd_resnet_v1_fpn_keras_feature_extractor
+from vision.object.methods.cnn.models.object_detection.models import ssd_resnet_v1_fpn_feature_extractor
+from vision.object.methods.cnn.models.object_detection.models import ssd_resnet_v1_fpn_feature_extractor_testbase
+from vision.object.methods.cnn.models.object_detection.models import ssd_resnet_v1_fpn_keras_feature_extractor
 
 
 class SSDResnet50V1FeatureExtractorTest(

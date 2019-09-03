@@ -24,7 +24,7 @@ from absl.testing import parameterized
 import numpy as np
 import tensorflow as tf
 
-from object_detection.tpu_exporters import export_saved_model_tpu_lib
+from vision.object.methods.cnn.models.object_detection.tpu_exporters import export_saved_model_tpu_lib
 
 flags = tf.app.flags
 FLAGS = flags.FLAGS

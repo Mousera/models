@@ -23,7 +23,7 @@ import numpy as np
 from six.moves import range
 import tensorflow as tf
 
-from object_detection.utils import per_image_evaluation
+from vision.object.methods.cnn.models.object_detection.utils import per_image_evaluation
 
 
 class SingleClassTpFpWithDifficultBoxesTest(tf.test.TestCase):

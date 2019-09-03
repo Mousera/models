@@ -19,9 +19,9 @@ import tensorflow as tf
 
 from google.protobuf import text_format
 
-from object_detection.builders import preprocessor_builder
-from object_detection.core import preprocessor
-from object_detection.protos import preprocessor_pb2
+from vision.object.methods.cnn.models.object_detection.builders import preprocessor_builder
+from vision.object.methods.cnn.models.object_detection.core import preprocessor
+from vision.object.methods.cnn.models.object_detection.protos import preprocessor_pb2
 
 
 class PreprocessorBuilderTest(tf.test.TestCase):

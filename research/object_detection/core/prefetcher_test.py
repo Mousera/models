@@ -21,7 +21,7 @@ from __future__ import print_function
 from six.moves import range
 import tensorflow as tf
 
-from object_detection.core import prefetcher
+from vision.object.methods.cnn.models.object_detection.core import prefetcher
 
 slim = tf.contrib.slim
 

@@ -22,7 +22,7 @@ from __future__ import print_function
 import numpy as np
 import tensorflow as tf
 
-from object_detection.utils import np_box_list
+from vision.object.methods.cnn.models.object_detection.utils import np_box_list
 
 
 class BoxListTest(tf.test.TestCase):

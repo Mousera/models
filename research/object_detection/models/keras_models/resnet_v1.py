@@ -21,7 +21,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from object_detection.core import freezable_batch_norm
+from vision.object.methods.cnn.models.object_detection.core import freezable_batch_norm
 
 
 def _fixed_padding(inputs, kernel_size, rate=1):  # pylint: disable=invalid-name

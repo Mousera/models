@@ -17,10 +17,10 @@
 import tensorflow as tf
 
 from google.protobuf import text_format
-from object_detection.builders import hyperparams_builder
-from object_detection.predictors.heads import keras_class_head
-from object_detection.protos import hyperparams_pb2
-from object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection.builders import hyperparams_builder
+from vision.object.methods.cnn.models.object_detection.predictors.heads import keras_class_head
+from vision.object.methods.cnn.models.object_detection.protos import hyperparams_pb2
+from vision.object.methods.cnn.models.object_detection.utils import test_case
 
 
 class ConvolutionalKerasClassPredictorTest(test_case.TestCase):

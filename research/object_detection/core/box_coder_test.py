@@ -17,8 +17,8 @@
 
 import tensorflow as tf
 
-from object_detection.core import box_coder
-from object_detection.core import box_list
+from vision.object.methods.cnn.models.object_detection.core import box_coder
+from vision.object.methods.cnn.models.object_detection.core import box_list
 
 
 class MockBoxCoder(box_coder.BoxCoder):

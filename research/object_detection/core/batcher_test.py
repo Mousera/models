@@ -23,7 +23,7 @@ import numpy as np
 from six.moves import range
 import tensorflow as tf
 
-from object_detection.core import batcher
+from vision.object.methods.cnn.models.object_detection.core import batcher
 
 slim = tf.contrib.slim
 

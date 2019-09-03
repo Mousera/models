@@ -20,7 +20,7 @@ from __future__ import print_function
 
 import numpy as np
 import tensorflow as tf
-from object_detection.metrics import calibration_metrics
+from vision.object.methods.cnn.models.object_detection.metrics import calibration_metrics
 
 
 class CalibrationLibTest(tf.test.TestCase):

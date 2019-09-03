@@ -26,9 +26,9 @@ from six.moves import range
 from six.moves import zip
 import tensorflow as tf
 
-from object_detection.core import preprocessor
-from object_detection.core import preprocessor_cache
-from object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.core import preprocessor
+from vision.object.methods.cnn.models.object_detection.core import preprocessor_cache
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
 
 if six.PY2:
   import mock  # pylint: disable=g-import-not-at-top

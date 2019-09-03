@@ -24,19 +24,19 @@ import os
 
 import tensorflow as tf
 
-from object_detection import eval_util
-from object_detection import exporter as exporter_lib
-from object_detection import inputs
-from object_detection.builders import graph_rewriter_builder
-from object_detection.builders import model_builder
-from object_detection.builders import optimizer_builder
-from object_detection.core import standard_fields as fields
-from object_detection.utils import config_util
-from object_detection.utils import label_map_util
-from object_detection.utils import ops
-from object_detection.utils import shape_utils
-from object_detection.utils import variables_helper
-from object_detection.utils import visualization_utils as vis_utils
+from vision.object.methods.cnn.models.object_detection import eval_util
+from vision.object.methods.cnn.models.object_detection import exporter as exporter_lib
+from vision.object.methods.cnn.models.object_detection import inputs
+from vision.object.methods.cnn.models.object_detection.builders import graph_rewriter_builder
+from vision.object.methods.cnn.models.object_detection.builders import model_builder
+from vision.object.methods.cnn.models.object_detection.builders import optimizer_builder
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.utils import config_util
+from vision.object.methods.cnn.models.object_detection.utils import label_map_util
+from vision.object.methods.cnn.models.object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.utils import shape_utils
+from vision.object.methods.cnn.models.object_detection.utils import variables_helper
+from vision.object.methods.cnn.models.object_detection.utils import visualization_utils as vis_utils
 
 # A map of names to methods that help build the model.
 MODEL_BUILD_UTIL_MAP = {

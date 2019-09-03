@@ -26,8 +26,8 @@ import pandas as pd
 from pycocotools import mask as coco_mask
 import tensorflow as tf
 
-from object_detection.core import standard_fields
-from object_detection.metrics import oid_challenge_evaluation_utils as utils
+from vision.object.methods.cnn.models.object_detection.core import standard_fields
+from vision.object.methods.cnn.models.object_detection.metrics import oid_challenge_evaluation_utils as utils
 
 
 def encode_mask(mask_to_encode):

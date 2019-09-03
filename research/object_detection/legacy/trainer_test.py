@@ -19,11 +19,11 @@ import tensorflow as tf
 
 from google.protobuf import text_format
 
-from object_detection.core import losses
-from object_detection.core import model
-from object_detection.core import standard_fields as fields
-from object_detection.legacy import trainer
-from object_detection.protos import train_pb2
+from vision.object.methods.cnn.models.object_detection.core import losses
+from vision.object.methods.cnn.models.object_detection.core import model
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.legacy import trainer
+from vision.object.methods.cnn.models.object_detection.protos import train_pb2
 
 
 NUMBER_OF_CLASSES = 2

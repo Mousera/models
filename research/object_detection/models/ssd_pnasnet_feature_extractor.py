@@ -20,12 +20,12 @@ Based on PNASNet ImageNet model: https://arxiv.org/abs/1712.00559
 
 import tensorflow as tf
 
-from object_detection.meta_architectures import ssd_meta_arch
-from object_detection.models import feature_map_generators
-from object_detection.utils import context_manager
-from object_detection.utils import ops
-from object_detection.utils import variables_helper
-from nets.nasnet import pnasnet
+from vision.object.methods.cnn.models.object_detection.meta_architectures import ssd_meta_arch
+from vision.object.methods.cnn.models.object_detection.models import feature_map_generators
+from vision.object.methods.cnn.models.object_detection.utils import context_manager
+from vision.object.methods.cnn.models.object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.utils import variables_helper
+from vision.object.methods.cnn.models.slim.nets.nasnet import pnasnet
 
 slim = tf.contrib.slim
 

@@ -21,20 +21,20 @@ import functools
 
 import tensorflow as tf
 
-from nets import alexnet
-from nets import cifarnet
-from nets import i3d
-from nets import inception
-from nets import lenet
-from nets import mobilenet_v1
-from nets import overfeat
-from nets import resnet_v1
-from nets import resnet_v2
-from nets import s3dg
-from nets import vgg
-from nets.mobilenet import mobilenet_v2
-from nets.nasnet import nasnet
-from nets.nasnet import pnasnet
+from vision.object.methods.cnn.models.slim.nets import alexnet
+from vision.object.methods.cnn.models.slim.nets import cifarnet
+from vision.object.methods.cnn.models.slim.nets import i3d
+from vision.object.methods.cnn.models.slim.nets import inception
+from vision.object.methods.cnn.models.slim.nets import lenet
+from vision.object.methods.cnn.models.slim.nets import mobilenet_v1
+from vision.object.methods.cnn.models.slim.nets import overfeat
+from vision.object.methods.cnn.models.slim.nets import resnet_v1
+from vision.object.methods.cnn.models.slim.nets import resnet_v2
+from vision.object.methods.cnn.models.slim.nets import s3dg
+from vision.object.methods.cnn.models.slim.nets import vgg
+from vision.object.methods.cnn.models.slim.nets.mobilenet import mobilenet_v2
+from vision.object.methods.cnn.models.slim.nets.nasnet import nasnet
+from vision.object.methods.cnn.models.slim.nets.nasnet import pnasnet
 
 
 slim = tf.contrib.slim

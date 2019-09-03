@@ -20,7 +20,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from nets import s3dg
+from vision.object.methods.cnn.models.slim.nets import s3dg
 
 
 class S3DGTest(tf.test.TestCase):

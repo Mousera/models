@@ -17,8 +17,8 @@
 import numpy as np
 import tensorflow as tf
 
-from object_detection.anchor_generators import flexible_grid_anchor_generator as fg
-from object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection.anchor_generators import flexible_grid_anchor_generator as fg
+from vision.object.methods.cnn.models.object_detection.utils import test_case
 
 
 class FlexibleGridAnchorGeneratorTest(test_case.TestCase):

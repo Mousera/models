@@ -25,11 +25,11 @@ from absl.testing import parameterized
 import numpy as np
 import tensorflow as tf
 
-from object_detection import inputs
-from object_detection.core import preprocessor
-from object_detection.core import standard_fields as fields
-from object_detection.utils import config_util
-from object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection import inputs
+from vision.object.methods.cnn.models.object_detection.core import preprocessor
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.utils import config_util
+from vision.object.methods.cnn.models.object_detection.utils import test_case
 
 FLAGS = tf.flags.FLAGS
 

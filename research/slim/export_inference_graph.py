@@ -61,7 +61,7 @@ import tensorflow as tf
 
 from tensorflow.python.platform import gfile
 from datasets import dataset_factory
-from nets import nets_factory
+from vision.object.methods.cnn.models.slim.nets import nets_factory
 
 
 slim = tf.contrib.slim

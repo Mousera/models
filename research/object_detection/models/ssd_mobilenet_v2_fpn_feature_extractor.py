@@ -19,13 +19,13 @@ import copy
 import functools
 import tensorflow as tf
 
-from object_detection.meta_architectures import ssd_meta_arch
-from object_detection.models import feature_map_generators
-from object_detection.utils import context_manager
-from object_detection.utils import ops
-from object_detection.utils import shape_utils
-from nets.mobilenet import mobilenet
-from nets.mobilenet import mobilenet_v2
+from vision.object.methods.cnn.models.object_detection.meta_architectures import ssd_meta_arch
+from vision.object.methods.cnn.models.object_detection.models import feature_map_generators
+from vision.object.methods.cnn.models.object_detection.utils import context_manager
+from vision.object.methods.cnn.models.object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.utils import shape_utils
+from vision.object.methods.cnn.models.slim.nets.mobilenet import mobilenet
+from vision.object.methods.cnn.models.slim.nets.mobilenet import mobilenet_v2
 
 slim = tf.contrib.slim
 

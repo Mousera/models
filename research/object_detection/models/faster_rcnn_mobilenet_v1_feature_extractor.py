@@ -18,9 +18,9 @@ import numpy as np
 
 import tensorflow as tf
 
-from object_detection.meta_architectures import faster_rcnn_meta_arch
-from object_detection.utils import shape_utils
-from nets import mobilenet_v1
+from vision.object.methods.cnn.models.object_detection.meta_architectures import faster_rcnn_meta_arch
+from vision.object.methods.cnn.models.object_detection.utils import shape_utils
+from vision.object.methods.cnn.models.slim.nets import mobilenet_v1
 
 slim = tf.contrib.slim
 

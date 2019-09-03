@@ -27,8 +27,8 @@ import six
 from six.moves import range
 import tensorflow as tf
 
-from object_detection.core import standard_fields as fields
-from object_detection.utils import visualization_utils
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.utils import visualization_utils
 
 _TESTDATA_PATH = 'object_detection/test_images'
 

@@ -15,11 +15,11 @@
 
 """A function to build an object detection anchor generator from config."""
 
-from object_detection.anchor_generators import flexible_grid_anchor_generator
-from object_detection.anchor_generators import grid_anchor_generator
-from object_detection.anchor_generators import multiple_grid_anchor_generator
-from object_detection.anchor_generators import multiscale_grid_anchor_generator
-from object_detection.protos import anchor_generator_pb2
+from vision.object.methods.cnn.models.object_detection.anchor_generators import flexible_grid_anchor_generator
+from vision.object.methods.cnn.models.object_detection.anchor_generators import grid_anchor_generator
+from vision.object.methods.cnn.models.object_detection.anchor_generators import multiple_grid_anchor_generator
+from vision.object.methods.cnn.models.object_detection.anchor_generators import multiscale_grid_anchor_generator
+from vision.object.methods.cnn.models.object_detection.protos import anchor_generator_pb2
 
 
 def build(anchor_generator_config):

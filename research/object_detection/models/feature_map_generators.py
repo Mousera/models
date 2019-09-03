@@ -26,7 +26,7 @@ of final feature maps.
 import collections
 import functools
 import tensorflow as tf
-from object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.utils import ops
 slim = tf.contrib.slim
 
 # Activation bound used for TPU v1. Activations will be clipped to

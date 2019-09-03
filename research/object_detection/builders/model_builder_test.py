@@ -20,14 +20,14 @@ from absl.testing import parameterized
 import tensorflow as tf
 
 from google.protobuf import text_format
-from object_detection.builders import model_builder
-from object_detection.meta_architectures import faster_rcnn_meta_arch
-from object_detection.meta_architectures import rfcn_meta_arch
-from object_detection.meta_architectures import ssd_meta_arch
-from object_detection.models import ssd_resnet_v1_fpn_feature_extractor as ssd_resnet_v1_fpn
-from object_detection.protos import hyperparams_pb2
-from object_detection.protos import losses_pb2
-from object_detection.protos import model_pb2
+from vision.object.methods.cnn.models.object_detection.builders import model_builder
+from vision.object.methods.cnn.models.object_detection.meta_architectures import faster_rcnn_meta_arch
+from vision.object.methods.cnn.models.object_detection.meta_architectures import rfcn_meta_arch
+from vision.object.methods.cnn.models.object_detection.meta_architectures import ssd_meta_arch
+from vision.object.methods.cnn.models.object_detection.models import ssd_resnet_v1_fpn_feature_extractor as ssd_resnet_v1_fpn
+from vision.object.methods.cnn.models.object_detection.protos import hyperparams_pb2
+from vision.object.methods.cnn.models.object_detection.protos import losses_pb2
+from vision.object.methods.cnn.models.object_detection.protos import model_pb2
 
 
 class ModelBuilderTest(tf.test.TestCase, parameterized.TestCase):

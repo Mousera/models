@@ -22,14 +22,14 @@ import numpy as np
 import six
 import tensorflow as tf
 from tensorflow.core.framework import types_pb2
-from object_detection import export_tflite_ssd_graph_lib
-from object_detection import exporter
-from object_detection.builders import graph_rewriter_builder
-from object_detection.builders import model_builder
-from object_detection.core import model
-from object_detection.protos import graph_rewriter_pb2
-from object_detection.protos import pipeline_pb2
-from object_detection.protos import post_processing_pb2
+from vision.object.methods.cnn.models.object_detection import export_tflite_ssd_graph_lib
+from vision.object.methods.cnn.models.object_detection import exporter
+from vision.object.methods.cnn.models.object_detection.builders import graph_rewriter_builder
+from vision.object.methods.cnn.models.object_detection.builders import model_builder
+from vision.object.methods.cnn.models.object_detection.core import model
+from vision.object.methods.cnn.models.object_detection.protos import graph_rewriter_pb2
+from vision.object.methods.cnn.models.object_detection.protos import pipeline_pb2
+from vision.object.methods.cnn.models.object_detection.protos import post_processing_pb2
 
 
 if six.PY2:

@@ -22,7 +22,7 @@ import numpy as np
 from six.moves import zip
 import tensorflow as tf
 
-from object_detection.core import freezable_batch_norm
+from vision.object.methods.cnn.models.object_detection.core import freezable_batch_norm
 
 
 class FreezableBatchNormTest(tf.test.TestCase):

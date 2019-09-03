@@ -18,20 +18,20 @@ import functools
 import tensorflow as tf
 from google.protobuf import text_format
 
-from object_detection.builders import post_processing_builder
-from object_detection.core import anchor_generator
-from object_detection.core import balanced_positive_negative_sampler as sampler
-from object_detection.core import box_list
-from object_detection.core import losses
-from object_detection.core import post_processing
-from object_detection.core import region_similarity_calculator as sim_calc
-from object_detection.core import target_assigner
-from object_detection.meta_architectures import ssd_meta_arch
-from object_detection.protos import calibration_pb2
-from object_detection.protos import model_pb2
-from object_detection.utils import ops
-from object_detection.utils import test_case
-from object_detection.utils import test_utils
+from vision.object.methods.cnn.models.object_detection.builders import post_processing_builder
+from vision.object.methods.cnn.models.object_detection.core import anchor_generator
+from vision.object.methods.cnn.models.object_detection.core import balanced_positive_negative_sampler as sampler
+from vision.object.methods.cnn.models.object_detection.core import box_list
+from vision.object.methods.cnn.models.object_detection.core import losses
+from vision.object.methods.cnn.models.object_detection.core import post_processing
+from vision.object.methods.cnn.models.object_detection.core import region_similarity_calculator as sim_calc
+from vision.object.methods.cnn.models.object_detection.core import target_assigner
+from vision.object.methods.cnn.models.object_detection.meta_architectures import ssd_meta_arch
+from vision.object.methods.cnn.models.object_detection.protos import calibration_pb2
+from vision.object.methods.cnn.models.object_detection.protos import model_pb2
+from vision.object.methods.cnn.models.object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection.utils import test_utils
 
 slim = tf.contrib.slim
 keras = tf.keras.layers

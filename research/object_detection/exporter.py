@@ -20,12 +20,12 @@ import tensorflow as tf
 from tensorflow.contrib.quantize.python import graph_matcher
 from tensorflow.core.protobuf import saver_pb2
 from tensorflow.python.tools import freeze_graph  # pylint: disable=g-direct-tensorflow-import
-from object_detection.builders import graph_rewriter_builder
-from object_detection.builders import model_builder
-from object_detection.core import standard_fields as fields
-from object_detection.data_decoders import tf_example_decoder
-from object_detection.utils import config_util
-from object_detection.utils import shape_utils
+from vision.object.methods.cnn.models.object_detection.builders import graph_rewriter_builder
+from vision.object.methods.cnn.models.object_detection.builders import model_builder
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.data_decoders import tf_example_decoder
+from vision.object.methods.cnn.models.object_detection.utils import config_util
+from vision.object.methods.cnn.models.object_detection.utils import shape_utils
 
 slim = tf.contrib.slim
 

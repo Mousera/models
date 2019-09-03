@@ -19,7 +19,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from nets import vgg
+from vision.object.methods.cnn.models.slim.nets import vgg
 
 slim = tf.contrib.slim
 

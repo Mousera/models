@@ -37,7 +37,7 @@ from abc import abstractproperty
 import six
 import tensorflow as tf
 
-from object_detection.utils import shape_utils
+from vision.object.methods.cnn.models.object_detection.utils import shape_utils
 
 
 # Box coder types.

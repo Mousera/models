@@ -15,8 +15,8 @@
 
 """RFCN Box Predictor."""
 import tensorflow as tf
-from object_detection.core import box_predictor
-from object_detection.utils import ops
+from vision.object.methods.cnn.models.object_detection.core import box_predictor
+from vision.object.methods.cnn.models.object_detection.utils import ops
 
 slim = tf.contrib.slim
 

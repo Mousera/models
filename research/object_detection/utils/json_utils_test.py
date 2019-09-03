@@ -17,7 +17,7 @@ import os
 
 import tensorflow as tf
 
-from object_detection.utils import json_utils
+from vision.object.methods.cnn.models.object_detection.utils import json_utils
 
 
 class JsonUtilsTest(tf.test.TestCase):

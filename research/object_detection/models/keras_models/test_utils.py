@@ -17,7 +17,7 @@
 
 # import tensorflow as tf
 #
-# from nets import mobilenet_v1
+# from vision.object.methods.cnn.models.slim.nets import mobilenet_v1
 #
 # slim = tf.contrib.slim
 #

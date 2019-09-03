@@ -19,8 +19,8 @@ import numpy as np
 
 import tensorflow as tf
 
-from object_detection.anchor_generators import multiple_grid_anchor_generator as ag
-from object_detection.utils import test_case
+from vision.object.methods.cnn.models.object_detection.anchor_generators import multiple_grid_anchor_generator as ag
+from vision.object.methods.cnn.models.object_detection.utils import test_case
 
 
 class MultipleGridAnchorGeneratorTest(test_case.TestCase):

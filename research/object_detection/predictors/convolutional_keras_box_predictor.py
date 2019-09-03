@@ -18,9 +18,9 @@ import collections
 
 import tensorflow as tf
 
-from object_detection.core import box_predictor
-from object_detection.utils import shape_utils
-from object_detection.utils import static_shape
+from vision.object.methods.cnn.models.object_detection.core import box_predictor
+from vision.object.methods.cnn.models.object_detection.utils import shape_utils
+from vision.object.methods.cnn.models.object_detection.utils import static_shape
 
 keras = tf.keras.layers
 

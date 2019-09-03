@@ -39,16 +39,16 @@ from six.moves import range
 from six.moves import zip
 import tensorflow as tf
 
-from object_detection.box_coders import faster_rcnn_box_coder
-from object_detection.box_coders import mean_stddev_box_coder
-from object_detection.core import box_coder as bcoder
-from object_detection.core import box_list
-from object_detection.core import matcher as mat
-from object_detection.core import region_similarity_calculator as sim_calc
-from object_detection.core import standard_fields as fields
-from object_detection.matchers import argmax_matcher
-from object_detection.matchers import bipartite_matcher
-from object_detection.utils import shape_utils
+from vision.object.methods.cnn.models.object_detection.box_coders import faster_rcnn_box_coder
+from vision.object.methods.cnn.models.object_detection.box_coders import mean_stddev_box_coder
+from vision.object.methods.cnn.models.object_detection.core import box_coder as bcoder
+from vision.object.methods.cnn.models.object_detection.core import box_list
+from vision.object.methods.cnn.models.object_detection.core import matcher as mat
+from vision.object.methods.cnn.models.object_detection.core import region_similarity_calculator as sim_calc
+from vision.object.methods.cnn.models.object_detection.core import standard_fields as fields
+from vision.object.methods.cnn.models.object_detection.matchers import argmax_matcher
+from vision.object.methods.cnn.models.object_detection.matchers import bipartite_matcher
+from vision.object.methods.cnn.models.object_detection.utils import shape_utils
 
 
 class TargetAssigner(object):
