@@ -834,7 +834,6 @@ class SSDMetaArch(model.DetectionModel):
       if self.groundtruth_has_field(fields.InputDataFields.is_annotated):
         losses_mask = tf.stack(self.groundtruth_lists(
             fields.InputDataFields.is_annotated))
-      import ipdb ; ipdb.set_trace()
       location_losses = self._localization_loss(
           prediction_dict['box_encodings'],
           batch_reg_targets,

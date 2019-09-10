@@ -208,6 +208,8 @@ class TfExampleDecoder(data_decoder.DataDecoder):
             tf.VarLenFeature(tf.float32),
         'image/object/class/label':
             tf.VarLenFeature(tf.int64),
+        'image/object/class/confidence':
+            tf.VarLenFeature(tf.float32),
         'image/object/class/text':
             tf.VarLenFeature(tf.string),
         'image/object/area':
@@ -220,7 +222,6 @@ class TfExampleDecoder(data_decoder.DataDecoder):
             tf.VarLenFeature(tf.int64),
         'image/object/weight':
             tf.VarLenFeature(tf.float32),
-
     }
     # We are checking `dct_method` instead of passing it directly in order to
     # ensure TF version 1.6 compatibility.
@@ -267,7 +268,8 @@ class TfExampleDecoder(data_decoder.DataDecoder):
             slim_example_decoder.Tensor('image/object/group_of')),
         fields.InputDataFields.groundtruth_weights: (
             slim_example_decoder.Tensor('image/object/weight')),
-
+        fields.InputDataFields.groundtruth_confidences: (
+            slim_example_decoder.Tensor('image/object/class/confidence')),
     }
     if load_multiclass_scores:
       self.keys_to_features[

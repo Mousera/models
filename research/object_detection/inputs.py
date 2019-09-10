@@ -183,10 +183,8 @@ def transform_input_data(tensor_dict,
         tf.reshape(groundtruth_confidences, [-1, 1]) *
         out_tensor_dict[fields.InputDataFields.groundtruth_classes])
   else:
-    groundtruth_confidences = tf.ones_like(
-        zero_indexed_groundtruth_classes, dtype=tf.float32)
-    out_tensor_dict[fields.InputDataFields.groundtruth_confidences] = (
-        out_tensor_dict[fields.InputDataFields.groundtruth_classes])
+    groundtruth_confidences = tf.ones_like(zero_indexed_groundtruth_classes, dtype=tf.float32)
+    out_tensor_dict[fields.InputDataFields.groundtruth_confidences] = (out_tensor_dict[fields.InputDataFields.groundtruth_classes])
 
   if merge_multiple_boxes:
     merged_boxes, merged_classes, merged_confidences, _ = (

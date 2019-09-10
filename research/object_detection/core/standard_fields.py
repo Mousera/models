@@ -236,6 +236,7 @@ class TfExampleFields(object):
   object_is_crowd = 'image/object/is_crowd'
   object_segment_area = 'image/object/segment/area'
   object_weight = 'image/object/weight'
+  object_confidence = 'image/object/confidence'
   instance_masks = 'image/segmentation/object'
   instance_boundaries = 'image/boundaries/object'
   instance_classes = 'image/segmentation/object/class'
